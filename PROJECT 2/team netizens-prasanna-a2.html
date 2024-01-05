@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Team Netizens Project</title>
+    </head>
+  <body>
+  <center><h2>Sri Eshwar Conference Registeration Form</h2>
+  <form action="http://127.0.0.1:5500/my%20project/result1.html" method="get" target="blank" enctype="multiart/form-data">
+    <form action="" method="get" target="blank" enctype="multiart/form-data">
+      <h4>Personal Information</h4>
+      <table width="100%">
+        <tr><td >
+          <label for="name">Name (Mandatory):</label></td><td>
+            <input type="text" name="Name" placeholder="Ex:Prasanna" required autofocus>
+            <br><br>
+        </td></tr>
+        <tr><td >
+          <label for="email">Email (Mandatory):</label></td><td>
+            <input type="email" name="E-mail" placeholder="Ex: abcd@gmail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <br><br>
+        </td></tr>
+        <tr><td >
+          <label for="country_code">Country Code (Mandatory):</label></td><td>
+            <input type="tel" name="Country code" placeholder="Ex:+91" required pattern="[0-9]{1,4}">
+            <br><br>
+        </td></tr>
+        <tr><td >
+          <label for="phone_number">Phone Number (Mandatory):</label></td><td>
+            <input type="tel" name="Phone number" placeholder="Ex:9876543210" required>
+            <br><br>
+        </td></tr>
+        <tr><td >
+          <label for="company_name">Company Name(Mandatory):</label></td><td>
+            <input type="text" name="Company name" placeholder="Ex:TCL"required maxlength="20">
+            <br><br>
+        </td></tr>
+        <tr><td >
+          <label for="job_title">Job Title (Mandatory):</label></td><td>
+            <input type="text" name="Job title" placeholder="Ex:Software developer"required>
+            <br><br>
+        </td></tr>
+        <tr><td >
+          <label for="gender">Gender (Mandatory):</label></td><td>
+            <input type="radio" name="Gender" value="male" required> Male 
+            <input type="radio" name="Gender" value="female" required> Female
+            <input type="radio" name="Gender" value="third gender" reguired> Third Gender
+            <br><br>
+        </td></tr>
+        <tr><td >
+          <label for="age">Age (Mandatory):</label></td><td>
+            <input type="number" name="Age" placeholder="15-70" required min="15" max="70">
+            <br><br>
+        </td></tr>
+        <tr><td >
+          <label for="country">Country (Mandatory):</label></td><td>
+            <input type="text" name="Country" placeholder="Ex:India" required>
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="city">City (Mandatory):</label></td><td>
+            <input type="text" name="City" placeholder="Ex:Coimbatore" required> 
+            <br><br>
+        </td></tr>
+        <tr><td >
+          <label for="dietary_preferences">Dietary Preferences :</label></td><td>
+          <select name="Dietary preferences" id="dietary_preferences" multiple>
+            <option selected disabled >Ctrl + mouse to select multiple</option>
+            <optgroup label="Veg">
+              <option value="Dosa">Dosa</option>
+              <option value="Idly">Idly</option>
+              <option value="Rice">Rice</option>
+              <option value="Sambar">Sambar</option>
+              <option value="Pongal">Pongal</option>
+              <option value="Chappathi">Poori</option>
+              <option value="Palak">Palak</option>
+            </optgroup>
+            <optgroup label="Non-Veg">
+              <option value="Beef">Beef</option>
+              <option value="Lamb">Lamb</option>
+              <option value="Fish">Fish</option>
+              <option value="Mutton">Mutton</option>
+              <option value="Turkey">Turkey</option>
+              <option value="Chicken">Chicken</option>
+
+            </optgroup>
+            </select>
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="t_shirt_size">T-Shirt Size:</label></td><td>
+            <select name="T-shirt size">
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+            <option value="xxl">XXL</option>
+            </select>
+            <br><br>
+        </td></tr>
+        <tr><td >
+          <label for="t_shirt_color">T-Shirt Colour:</label></td><td>
+            <select name="T-shirt color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="white">White</option>
+            <option value="pink">Pink</option>
+            <option value="yellow">Yellow</option>
+            <option value="orange">Orange</option>
+            <option value="purple">Purple</option>
+            <option value="brown">Brown</option>
+            <option value="grey">Grey</option>
+            </select>
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="session_preferences">Session Preferences:</label></td><td><br>
+            <input type="checkbox" name="Session_preferences" value="session_1"> Session 1
+            <input type="checkbox" name="Session_preferences" value="session_2"> Session 2
+            <input type="checkbox" name="Session_preferences" value="session_3"> Session 3
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="workshop_selection">Workshop Selection:</label></td><td>
+            <select name="Workshop selection" required>
+            <option value="Digital_Marketing">Digital Marketing</option>
+            <option value="Graphic_Design"> Graphic Design</option>
+            <option value="Artificial_Intelligence"> Artificial Intelligence</option>
+            <option value="Robotics"> Robotics</option>
+            <option value="Web_Development"> Web Development</option>
+            <option value="Android_App_Development"> Android App Development</option>
+            <option value="Machine_Learning"> Machine Learning</option>
+            <option value="Data_Science"> Data Science</option>
+            <option value="AI_In_Healthcare"> AI In Healthcare</option>
+            <option value="Blockchain"> Blockchain</option>
+            <option value="Cybersecurity"> Cybersecurity</option>
+            <option value="Cloud_Computing"> Cloud Computing</option>
+            <option value="Internet_Of_Things"> Internet Of Things</option>
+            <option value="Networking"> Networking</option>
+            <option value="Python"> Python</option>
+            <option value="Java"> Java</option>
+            <option value="C++"> C++</option>
+            <option value="IoT_and_Embedded_Systems"> IoT and Embedded Systems</option>
+            <option value="Mobile_App_Developement"> Mobile App Developement</option>
+            <option value="Game_Development"> Game Development</option>
+            </select>
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="workshop_date">Date of attending the workshop:</label></td><td>
+            <input type="date" name="Workshop date" required min="2023-10-29" max="2023-10-31">
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="will_bring_guest">Will you bring a guest? : </label></td><td>
+            <input type="radio" name="Will bring guest?" value="yes" required>Yes
+            <input type="radio" name="Will bring guest?" value="no" required> No
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="guest_name"> Guest's Name (Optional):</label></td><td>
+            <input type="text" name="Guest name" id="guest_name">
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="guest_dietary_preferences">Guest's Dietary Preferences (mandatory)</label></td><td>
+            <select name="Dietary preferences" id="dietary_preferences" multiple>
+              <option selected disabled >Ctrl + mouse to select multiple</option>
+              <optgroup label="Veg">
+                <option value="Dosa">Dosa</option>
+                <option value="Idly">Idly</option>
+                <option value="Rice">Rice</option>
+                <option value="Sambar">Sambar</option>
+                <option value="Pongal">Pongal</option>
+                <option value="Chappathi">Poori</option>
+              </optgroup>
+              <optgroup label="Non-Veg">
+                <option value="Beef">Beef</option>
+                <option value="Lamb">Lamb</option>
+                <option value="Fish">Fish</option>
+                <option value="Mutton">Mutton</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Chicken">Chicken</option>
+              </optgroup>
+              </select>
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="preferred_payment_method">Preferred Payment Method (Mandatory):</label></td><td><br>
+            <input type="radio" name="Preferred payment method" value="Credit_card" required>Creditcard
+            <input type="radio" name="Preferred payment method" value="Debit_Card" required> Debit Card
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="card_number">Card Number (Mandatory):</label></td><td>
+            <input type="password" name="Card number" id="card_number" required size="16" maxlength="16">
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="card_expiration_date">Card Expiration Date (Mandatory):</label></td><td>
+            <input type="month" name="Card expiration date" id="card_expiration_date" required>
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="card_cvv">Card CVV (Mandatory):</label></td><td>
+            <input type="password" name="Card cvv" id="card_cvv" minlength="3" maxlength="3">
+          <br><br>
+        </td></tr>
+        <tr><td>
+            <label for="billing_address">Billing Address (Mandatory):</label></td><td>
+            <textarea name="Billing address" id="billing_address" required></textarea>
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="how_did_you_hear_about_us">How did you hear about us? (Mandatory):</label></td><td><br>
+            <input type="checkbox" name="How did you hear about us?" id="newspaper" > News Paper<br>
+            <input type="checkbox" name="How did you hear about us?" id="social_media" > Social Media<br>
+            <input type="checkbox" name="How did you hear about us?" id="friends" > Friends<br>
+            <input type="checkbox" name="How did you hear about us?" id="family" > Family<br>
+            <input type="checkbox" name="How did you hear about us?" id="radio" > Radio<br>
+            <input type="checkbox" name="How did you hear about us?" id="other" > Other
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="id_card_photo">Upload Photo for ID Card (Mandatory):</label></td><td>
+            <input type="file" name="ID card photo" id="id_card_photo" accept=".jpg"required >
+            <br><br>
+        </td></tr>
+        <tr><td>
+          <label for="collect_profile">Collect Profile (Mandatory):</label></td><td>
+            <input type="file" name="Collect profile" id="collect_profile" accept=".pdf" multiple required>
+            <br><br>
+        </td></tr>
+        <tr><td>  
+          <label for="Additional_Comments">Additional Comments:</label></td><td>
+            <textarea name="Additional Comments" id="Additional_Comments" required></textarea>
+        </td></tr>
+        <tr><td>
+          <br><br><button> Submit </button>
+        </td></tr>
+        <tr><td>
+          <br><br><button type="reset"> Clear Data</button>
+        </td></tr>
+    </table>
+  </form>
+  </center> 
+    <br><br><br><br><h2>Team Details</h2>
+    
+     <h4>Team Name:Team Netizens</h4><br>
+    <br>Team Mem1:  Nishanth Ram K
+    <br>Team Mem2:  Nithien SA
+    <br>Team Mem3:  Prasanna R
+    <br>Team Mem4:  Praveen Muthu Kumar R
+  </body>
+</html>
